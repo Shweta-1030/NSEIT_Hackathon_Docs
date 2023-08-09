@@ -19,9 +19,9 @@ st.markdown("""
 6. If somebody wants to work on a more than one use case, they are allowed to. 
 7. Teams can work on an idea that they have worked on before (as long as they do not re-use code).
 8. Teams can use libraries, frameworks, or open-source code in their projects. Working on a project before the event and open-sourcing it for the sole purpose of using the code during the event is against the spirit of the rules and is not allowed.
-10. Teams must stop development once the time is up. However, teams are allowed to debug and make small fixes to their programs after time is up. e.g. If during demoing your project you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that. Making large changes or adding new features is not allowed.
-11. Teams that violate above rules are not allowed to participate
-12. Teams can be disqualified from the competition at the organizers' discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the or other unsporting behaviour.
+9. Teams must stop development once the time is up. However, teams are allowed to debug and make small fixes to their programs after time is up. e.g. If during demoing your project you find a bug that breaks your application and the fix is only a few lines of code, it's okay to fix that. Making large changes or adding new features is not allowed.
+10. Teams that violate above rules are not allowed to participate
+11. Teams can be disqualified from the competition at the organizers' discretion. Reasons might include but are not limited to breaking the Competition Rules, breaking the or other unsporting behaviour.
 
 """)
 
@@ -57,17 +57,10 @@ Teams will be judged on these five criteria. During judging, participants should
 These criteria will guide judges but ultimately judges are free to make decisions based on their gut feeling of which projects are the most impressive and most deserving.
 """)
 
-st.subheader("It's important to note that these judging criteria do not include:")
+st.header("It's important to note that these judging criteria do not include:")
 st.markdown("""
-- How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Projecting is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down.
-- How well you pitch. Projecting is about building and learning, not about selling.
+- How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hackathon is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down.
+- How well you pitch. Hackathon is about building and learning, not about selling.
 - How well the project solves a problem. You can build something totally useless and as long as you're learning and having fun, that's a good project! Sometimes a pointless project is one of the best projects!
 \nSo don't worry about coming up with the next big idea. You'll have plenty of time for that outside the hackathon. just focus on learning! At the end of the day the skills you learn and the friends you make might lead to the next big thing—but you don't have to do that to win a hackathon.
 """)
-
-st.header('## Remember!')
-st.markdown("""
-The competition is just a part of the hackathon. To make the most out of the event, try something new, teach other people, and make new friends!
-""")
-
-st.header('Happy Projecting from One NSEIT Hackathon Team!')
