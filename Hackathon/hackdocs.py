@@ -30,7 +30,7 @@ st.markdown("""
 After Hackathon finishes, teams must submit their projects to GitHub by the submission deadline.\n
 A project submission must have two components to be eligible for judging:
 - a link to the project's code repository; _and_
-- a brief write-up on the project summary, description, use cases, video, screenshots etc
+- a brief write-up on the project summary, description, use cases, video, screenshots, etc.
 - Video call with a detailed walkthrough of the use case and implementation to judges.
 
 After submission, teams will show their projects each other and to the judges.
