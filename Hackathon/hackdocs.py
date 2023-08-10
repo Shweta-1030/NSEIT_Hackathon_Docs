@@ -2,7 +2,11 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
-st.title("One NSEIT’s Generative AI Hackathon Rules & Guidelines")
+st.title("(AI)5 : Generative AI Hackathon Rules & Guidelines")
+
+st.markdown("""
+(AI)5 to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.
+""")
 
 st.markdown("""
 These are the standard competition rules & guidelines used at One NSEIT’s Generative AI Hackathon\n\n
