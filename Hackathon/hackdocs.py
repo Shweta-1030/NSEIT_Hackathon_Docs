@@ -63,7 +63,7 @@ These criteria will guide judges but ultimately judges are free to make decision
 
 st.header("It's important to note that these judging criteria do not include:")
 st.markdown("""
--- How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hackathon is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down.
+- How good your code is. It doesn't matter if your code is messy, or not well commented, or uses inefficient algorithms. Hackathon is about playing around, making mistakes, and learning new things. If your code isn't production ready, we're not going to mark you down.
 - How well you pitch. Hackathon is about building and learning, not about selling.
 - How well the project solves a problem. You can build something totally useless and as long as you're learning and having fun, that's a good project! Sometimes a pointless project is one of the best projects!
 \nSo don't worry about coming up with the next big idea. You'll have plenty of time for that outside the hackathon. just focus on learning! At the end of the day the skills you learn and the friends you make might lead to the next big thing—but you don't have to do that to win a hackathon.
