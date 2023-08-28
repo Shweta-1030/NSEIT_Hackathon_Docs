@@ -4,7 +4,7 @@ st.set_page_config(layout="wide")
 
 st.title("(AI)5  : Generative AI Hackathon Rules & Guidelines")
 
-st.markdown("CO<sub>2</sub>", unsafe_allow_html=True)
+st.markdown("AI<sup>5</sup>", unsafe_allow_html=True)
 
 st.markdown("""
 (AI)5  to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.
