@@ -8,8 +8,6 @@ st.markdown("""
 (AI)5  to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.
 """)
 
-st.write('<ins></ins>')
-
 st.markdown("""
 These are the standard competition rules & guidelines used at One NSEIT’s Generative AI Hackathon\n\n
 All other terms and rules listed in this document will continue to apply. Should there be a direct conflict during the Hackathon, decision of the organizing committee would be deemed as final.
