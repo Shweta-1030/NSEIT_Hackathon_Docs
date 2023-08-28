@@ -11,7 +11,7 @@ st.image(image, caption=None, width=None, use_column_width=None, clamp=False, ch
 st.title("(AI)5  : Generative AI Hackathon Rules & Guidelines")
 
 st.markdown("""
-(AI)<sup>5</sup> to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.3
+(AI)<sup>5</sup> to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.
 """, unsafe_allow_html=True)
 
 ##st.markdown("""
