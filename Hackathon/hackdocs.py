@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 st.title("(AI)5  : Generative AI Hackathon Rules & Guidelines")
 
 st.markdown("""
-(AI)5  to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.
+(AI)<sup>5</sup>  to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees., unsafe_allow_html=True
 """)
 
 st.markdown("""
