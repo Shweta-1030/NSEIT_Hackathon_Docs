@@ -2,6 +2,8 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
+st.markdown("(AI)<sup>5</sup>", unsafe_allow_html=True)
+
 st.title("(AI)5  : Generative AI Hackathon Rules & Guidelines")
 
 st.markdown("(AI)<sup>5</sup>", unsafe_allow_html=True)
