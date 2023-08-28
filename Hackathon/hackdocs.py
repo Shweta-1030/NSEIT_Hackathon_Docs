@@ -4,7 +4,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 image = Image.open('AI logo.jpg')
-st.image(image, width=500)
+st.image(image, class="center")
 
 ##st.markdown("(AI)<sup>5</sup>", unsafe_allow_html=True)
 
