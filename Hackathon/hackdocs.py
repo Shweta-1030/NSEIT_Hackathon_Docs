@@ -8,8 +8,8 @@ st.image(image, caption=None, width=None, use_column_width=None, clamp=False, ch
 
 ##st.markdown("(AI)<sup>5</sup>", unsafe_allow_html=True)
 
-st.title("(AI)<sup>5</sup>  : Generative AI Hackathon Rules & Guidelines", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center; color: grey;'>Big headline</h1>", unsafe_allow_html=True)
+st.title("(AI)5 : Generative AI Hackathon Rules & Guidelines")
+##st.markdown("<h1 style='text-align: center; color: grey;'>Big headline</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 (AI)<sup>5</sup> to be read as I5: 5x Productivity with AI Solutions: Defining how AI can enhance productivity for the future. A hackathon to be conducted amongst NSEIT, Aujas and CXIO employees.
