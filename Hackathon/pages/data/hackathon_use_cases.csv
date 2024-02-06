@@ -1,0 +1,195 @@
+Sr. No.,Use Case Name,Use Case Summary,Use Case Description,Potential Impact,Required Data/Resources
+1,"Text Analytics on 
+Customer Feedback (Domain Agnostic)",Categories the customer feedback into predefined categories,"Premise: Insurance client has received data from their end customer
+which has feedback reagrding their services and products.
+
+Goal: Feedback data is present in CSV/Excel file. Feedback
+is present in 11 Indian Languages, English and Higlish.
+Every feedback comment needs to be labelled into a predefined
+category which has been defined by Insurance company already.
+List of categories is separately provided.
+
+Implementation Guidelines: Create application using Gen AI which would 
+let Insurance company upload list of their categories and actual feedback data file. Application should use Gen AI to categorize the data and let the user download the labelled/categorised file for their consumption.
+All regional languages, English, Hindi, Hinglish should get covered as part of this exercise.","This can be used for customers where end customer feedback is 
+gathered via different channels and can be used to generate Net Promoter Score (NPS) which measures the loyalty of a company's customer base with a score from -100 to +100, which comes from customers answering the question ""How likely are you to recommend this company to a friend or colleague?""",Requires access to Gen AI via APIs and Python coding language
+2,"Fraud Detection for Car Insurance 
+(Insurance)","Synthesize data, build, train and test fraud detection model 
+to identify car insurance in real time","Premise: Auto Insurance company is not able to detect the frauds in real time as lots of false claims are being inaccurately settled.
+
+Goal: Auto Insurance company wants to detect frauds in car insurance
+claim settlement processes in real time using Gen AI capabilities.
+
+Implementation Guidelines:
+Let's say an insurance company wants to detect fraudulent claims for car accidents. They could use generative AI to generate synthetic data that is similar to real car accident claims data. This data could include information such as the following:
+
+Type of car accident: This could include information such as the number of vehicles involved, the severity of the accident, and the location of the accident.
+Severity of the accident: This could include information such as the number of injuries, the amount of property damage, and the cost of repairs.
+Amount of the claim: This could include information such as the amount of medical expenses, the amount of property damage, and the amount of lost wages.
+Claimant information: This could include information such as the name of the claimant, the address of the claimant, and the driver's license number of the claimant.
+Insurance policy information: This could include information such as the policy number, the policy limits, and the deductible.
+The generative AI could be used to generate synthetic data that is similar to this real car accident claims data. The data would be generated in a way that is statistically representative of real car accident claims data. This would allow the insurance company to train a fraud detection model that is accurate at identifying fraudulent claims.
+
+Here are some examples of synthetic data that could be generated for this purpose:
+
+Type of car accident: The generative AI could generate a variety of different types of car accidents, including single-vehicle accidents, multi-vehicle accidents, and hit-and-run accidents.
+Severity of the accident: The generative AI could generate a variety of different severities of car accidents, ranging from minor accidents to fatal accidents.
+Amount of the claim: The generative AI could generate a variety of different amounts for the claim, ranging from a few hundred dollars to millions of dollars.
+Claimant information: The generative AI could generate a variety of different claimant information, including names, addresses, and driver's license numbers.
+Insurance policy information: The generative AI could generate a variety of different insurance policy information, including policy numbers, policy limits, and deductibles.
+The synthetic data could then be used to train a fraud detection model. The fraud detection model would learn to identify patterns of fraudulent behavior in the data. For example, the model might learn to identify claims that are made for accidents that are unlikely to have happened, or claims that are made for amounts that are significantly higher than the average amount for that type of accident.
+
+Once the fraud detection model has been trained, it could be used to identify fraudulent claims in real car accident claims data. This could help the insurance company to identify fraudulent claims more quickly and efficiently.
+ Customer specific PII data should be redacted and should not be sent to 
+Gen AI Model to maintain client secrecy.","Auto Insurance companies can readily use this 
+model built on synthetic data to detect frauds in real time",Requires access to Gen AI via APIs and Python coding language
+3,Automation IMS Flow,Automate and expediate day-to-day jobs and develop interactive chatbot,"ICS COE
+
+Premise:
+The goal is to expedite day-to-day minimal jobs, reducing human dependency and error occurrence.
+
+Goal:
+Develop an interactive ChatBOT to handle day-to-day administration tasks on AWS.
+
+Implementation Guidelines:
+Utilize Gen AI to create a user-friendly ChatBOT on MS Teams, enabling users to perform routine operations using simple language.","Potential Impact:
+The implementation is expected to accelerate task completion and decrease reliance on human intervention.","Required Data/Resources:
+Access to GenAI API is essential for seamless integration with AWS and Terraform."
+4,Cloud Operations Managed Services issue resolution Suggestions and links for Incident and request.,"Enhances IT functions through event correlation and analysis, suggesting possible solutions and providing links to correct SOP. intelligent automation  leveraging Generative AI capabilities","In today's complex IT landscapes, businesses heavily rely on uninterrupted digital operations to maintain efficiency and competitiveness. However, managing IT incidents and maintaining system reliability can be a daunting task due to the sheer volume of events generated from various sources. To address this challenge, our solution leverages advanced event correlation and analysis powered by Generative AI capabilities, aiming to enhance IT functions by automating processes, suggesting optimal solutions, and providing immediate access to the correct Standard Operating Procedures (SOP).
+
+Key Features:
+1. Event Correlation and Analysis:
+2. Generative AI-powered Solution Suggestion
+3. Automated SOP Linking
+4. Intelligent Automation
+5. Continuous Learning and Improvement","Our Intelligent IT Operations Enhancement solution empowers IT teams with advanced event correlation, Generative AI-powered solutions, automated SOP guidance, and intelligent automation. By integrating these capabilities, businesses can expect improved incident resolution times, reduced downtime, enhanced resource utilization, and a streamlined approach to managing complex IT landscapes. This solution represents a significant leap forward in IT operations efficiency and reliability.","Python, API tool, Open API, AI alogorithm "
+5,Convert Cloudformation code to Terraform code,Convert AWS cloudformation code to Terraform code,"Goal: Many organizations are migrating from cloud specific IAAC tools to Terraform as it is generic IAAC. In such cases it is challenging to rewrite terraform code from scratch. The application will help to write terraform code corresponding to cloudformation template.
+Implementation guide: Users have to upload their cloudformation template code. The application will use Generative AI to create corresponding Terraform modules/code block.","Potential Impact:
+
+Accelerated Migration: Organizations can swiftly transition to Terraform, saving time and effort compared to manual code rewriting.
+
+Reduced Learning Curve: Teams experienced in CloudFormation can seamlessly adopt Terraform without extensive retraining.
+
+Minimized Errors: AI-generated code lowers the risk of human errors during migration, ensuring robust infrastructure setups.
+
+Broader Adoption: Easier migration encourages more organizations to adopt Terraform, leading to standardized practices.
+
+Resource Efficiency: Skilled personnel can focus on higher-value tasks, enhancing productivity and cost savings.
+
+Consistency and Compliance: AI ensures migrated setups align with originals, simplifying compliance adherence.
+
+Innovation: Streamlined migration frees resources for exploring new infrastructure possibilities and innovation.
+
+Best Practice Propagation: Adoption of AI-generated code encourages use of Terraform's best practices and modular approach.","Python, API tool, Open API, AI alogorithm "
+7,analyzing call center employee conversations,Sentiment Analysis of Call center employee conversations,"Goal: Use all recorded calls from customer & representative conversation
+generate customer's sentiments (positive, neutral, negative) 
+
+Implementation Guidelines: Use mp3/mp4 audio files and convert them into text. Use the text to drive entity recognition and generate the final sentiment output (neutral, negative or positive)","Potential: Sentiment Analysis would be used to enhance customer 
+experience by improving on certain aspects of product marketting, sales and services. 
+",Requires access to Gen AI via APIs and Python coding language
+8,Generate Social media post,Generate social media post from recent Organisaztional release.,"Goal: Using the recent organisational release generate the social media post for various medias like LinkedIN, Instagram etc.
+
+Implementation Guidelines : Use organisational release and transform them into useful graphics or taglines with meaningful image and catchy the social media post.","Potential: These post can be used to engage the connections, better communication, brand promotion and audience building along with the contenet marketing.",Requires access to Gen AI via APIs and Python coding language
+9,Resume Parser for TAG (HR),"Create a utility which would parse pile of resumes in bulk 
+and generate summary to verify it against the Job Description
+to validate a resume for job opportunity","Goal: Create a utility which would parse pile of resumes in bulk 
+and generate summary to verify it against the Job Description
+to validate a resume for job opportunity
+
+Implementation Guidelines: Utility should be able to scan pile of resumes
+in bulk (pdf/doc format) against the job description and provide only suitable
+resumes back to TAG (HR).","Potential: This can be used by TAG (Talent Aquisition People) to quickly
+scan hundreds of resumes without manually looking at them and provide
+only suitable resumes for interview process",Requires access to Gen AI via APIs and Python coding language
+10,Email Automation Platform,"Automate end to end email case initiation to closure including automating workflows for classification, routing, composing response, optional validation and sending response","Goal: Build a platform that helps automate workflow of tasks performed by helpdesk for tickets raised via emails.
+
+Implementation Guidelines: Ability to scan email, understand the context, sentiment, criticality and able to create ticket area, priority and sentiment, create ticket based on classification, assign and/or provide solution based on historical data and present for optional review, tone the message according to request.",Potential: This can be used by support teams for automating any type of email based workflows,Requires access to Gen AI via APIs and Python coding language and RPA
+11,Agent Assistance Platform,"Intelligent customer service agent assistance platform for aiding agents for automating manual tasks and providing information assistance
+
+Information assistance by:
+1. Providing real time call transcript to agents
+2. Instant access to wealth of knowledge & resources
+3. Real-time suggestion for relevant solution
+4. Ansering common queries
+5. Reminder for tasks nearing SLA breach","Goal: Build a platform that helps agents for augmenting decisioning and improve agent experience and help to achieve gain in productivity
+
+Implementation Guidelines: Ability to convert speech to text in real time for call in progress. During the call based on text generated, identify the issue or request and provide relevant solution/suggestion in real time by scanning historical data of similar requests via a chat interface with assistance Bot.",Potential: To be used by support agents for solving issues right at first go with reduced TAT,"Requires access to Gen AI via APIs, knowledge repository data set of previous support cases and relevant doucmentation and Python coding language and RPA"
+12,AI Powered Interaction Analytics,"Generate insights in to customer support tickets with help of below analytics:
+1. Performance Scorecards: Analyze tickets & call data to develop diverse performance scorecards for agents, teams
+2. Reputational Risk: Analyze call transcripts and scrape web data to detect user sentiments, grievances enabling timely identification and resolution of reputational risks
+3. Query vs Complaint: Analyze call transcripts to classify tickets into queries and complaints for regulatory compliance. Conduct analytics to identify similar tickets and uncover root causes, aiming to reduce ticket volume in the long run","Goal: Build Analytics for understanding the effectiveness of helpdesk and identify potential risks
+
+Implementation Guideline: Perform text analytics on call data to generate different KPIs such as sentiment score, first time right, TAT wrt area, agent, teams etc.Web scrape data from social platforms and corelate it with tickets data for understanding impact of social events, sentiments to arrive at any potential risks to organization from reputation standpoint. Group tickets with similar complaint and based on text analytics of tickets help arrive at RCA",Potential: To be used by senior management for improving Customer experience and in turn improve NPS score,"Requires access to Gen AI via APIs, knowledge repository data set of previous support cases and relevant doucmentation and Python coding language and RPA"
+13,Conversational BI,Generate tabular and graphical (in form of charts) results based natural language query given by user,"Goal: Build Conversational BI analytics platform that will help users to query data in natural language and ability to generate results in tabular or chart format
+
+Implementation Guideline: Platform with ability to connect with standard OLTP/OLAP data base and csv, excel file
+Ability to understand the natural langugage query and convert it into SQL query. Ability to understand the nature of query and choose right format of visual for displaying result for example use bar chart for comparison vs line chart for trend vs table for list vs pie chart for showing share etc.","Potential: To be used by executives for understanding trends in data, perform comparisons, understand performance wrt growth/rank etc.
+
+To be used by analysts for filtering, sorting, doing conditional analysis and slicing of data for various combinations",Requires access to Gen AI via APIs and Python coding language
+14,Exec Summary from Contracts,To extract the key details from SOW/MSA contract documents,"A tool that will create an exeutive summary from contracts with pertinent details like Customer details, Contract value, milestones, duration/period, Contract type like T&M/FP, SLAs, Penalities, Risks etc",Can me used as a third eye for effective governance,"Gen AI, Python, sample contracts"
+17,Personalized Recommendation,"Personalization of products, services or contents","AI based automated personalized and tailored product, services or contents recommendation. The solution may be used for various business sectors like e-commerce, financial institutions, OTTs.",,
+18,TalentTrack Pro,Gen-AI-Powered Talent Management and Assessment Platform,"TalentTrack Pro empowers NSEIT to make data-driven decisions, enhance talent management processes, and foster skill development, resulting in improved project outcomes and a more agile and competitive workforce. This use case demonstrates the app's potential to revolutionize talent management and assessments in modern project teams.
+Note: This is not an appraisal system, this system will only track career goals, plans, progressions, training recommendations, certifications, DU and org level metrics ","Trend Analysis and Industry Benchmarking:TalentTrack Pro can utilize Gen AI for trend analysis and industry benchmarking. By comparing internal talent metrics with external industry data, organizations can identify areas for improvement and remain competitive.
+
+Enhanced Talent Development: TalentTrack Pro will fosters skill development and career progression by offering personalized training recommendations and resources. Team members can align their development with organizational goals.
+
+Optimized Team Composition: AI-driven talent matching ensures that project teams are composed of individuals with the right skills and qualifications, leading to improved project outcomes and efficiency.
+
+Real-Time Feedback: Team members receive real-time feedback, enabling them to make immediate course corrections and progress in their careers more effectively.
+
+Compliance and Certification Tracking: The app simplifies compliance tracking and certification management, ensuring that team members have the necessary qualifications to excel in their roles. The Gen AI powered engine also recommends certifications to be done by individuals
+
+Strategic Workforce Planning: TalentTrack Pro supports NSEIT in forecasting future talent needs and skill gaps, enabling proactive workforce planning.
+
+Improved Organizational Agility: By nurturing skill development and aligning talent with strategic goals, the app helps NSEIT become more agile and competitive in today's dynamic business environment.
+
+AI-Powered Insights: Gen AI integration provides actionable insights and recommendations, helping NSEIT stay ahead in talent management and assessments.
+
+AI-Enhanced Coaching and Mentorship:TalentTrack Pro can use Gen AI to provide personalized coaching and mentorship recommendations. It can match team members with suitable mentors based on their career goals and skill development needs.
+
+Course Recommendation: Based on the skills gap analysis, TalentTrack Pro can use Gen AI to recommend free and open online courses, tutorials, webinars, or other learning resources. These recommendations should be tailored to address the specific skill gaps identified for each team member.
+
+Predictive Analytics for Talent Retention:Gen AI can help predict which team members are at risk of leaving the organization. By analyzing historical data and engagement patterns, the app can provide early warnings, allowing HR managers to implement retention strategies.
+
+Sentiment Analysis for Employee Engagement:Use Gen AI to perform sentiment analysis on employee engagement surveys and feedback. This helps HR managers gauge the overall satisfaction and engagement levels of team members.
+","Python, Open API, Spacy, NLTK"
+19,Code Buddy,Gen-AI-Powered code buddy,"Code Buddy will help in 
+Code completion
+Code generation
+Test-Cases generation
+Code documentation
+Code debugging
+Code migration
+
+Which means faster project execution and efficient coding and testing phase",Impact to get the project coding and testing phased improved by around 25%. Faster and accurate issue resolutions,"Python, LLAMA + Machine with GPU or Mistral 7B + machine, Open AI"
+20,content moderation,"analyze the audio from a video clip to recognize offensive or
+demeaning language","customer care agent or customer behaviour analysis.
+Employee behaviour tracking","This helps management to track the behaviour of the employees 
+whether they are engaging customers with respect","OpenAI , Python , streamlit"
+21,patent documentation analysis,"Analyze if a similar research paper has already been published
+using a similarity score ","When a new patent is submitted it is cross checked against existing 
+patents whether it is something actually new or just a reworded document of 
+existing patent",Helps to identify similar documents against an existing inventory,"OpenAI , Python , streamlit, vector database"
+22,jobSearch Hotline,"Gen-AI-Powered code job search, criteria management, live suitability analysis","Creation of a new AI powered NSEIT Job Search Web Portal with following Features:
+
+1. Resume Creation
+A form to be filled by applying employee to create a database entry with employee details in a specific format.
+
+2. Resume Analysis
+Based on specfied skills, giving a generic category and job suitability percentage
+
+3. Job Search
+Based on assigned category, based on suitability ratio, list available jobs with Match/Suitability percentage.
+
+4. Pre-Interview Prep Section
+A section that will generate and make available topics and a basic description of what employee must have an idea about before applying for a role.
+
+5. Post Interview Analysis
+Interviewer must upload a copy of Teams Call Transcription to be analysed by AI and generate a report on how employee performed.
+Points to improve etc
+
+6. Interviewer's Portal
+Interviewer will have a Dashboard to highlight suitable employees based on performance to choose from.
+
+7. Employee Application History
+Gen AI powered employee analysis to study employee application behavior to identify employee behavior. Helps to identify how serious an employee is based on whether he is sending application to all jobs or just a specific one etc",We'll be able to discern and select Quality employees and save time for HR,"OpenAI API (access to GPT3.5, GPT4), Python, Linux VM"
