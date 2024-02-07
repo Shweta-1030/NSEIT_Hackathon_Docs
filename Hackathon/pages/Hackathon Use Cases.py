@@ -88,7 +88,7 @@ with st.container(height=150, border=True):
 #col5 = st.columns(6)
 with st.container(height=150, border=True):
     col5 = st.columns(6)
-    col5[0].write('5')
+    col5[0].write('4')
     col5[1].write('Cloud Operations Managed Services issue resolution Suggestions and links for Incident and request.')
     col5[2].write('Enhances IT functions through event correlation and analysis, suggesting possible solutions and providing links to correct SOP. intelligent automation  leveraging Generative AI capabilities')
     col5[3].write('''In today's complex IT landscapes, businesses heavily rely on uninterrupted digital operations to maintain efficiency and competitiveness. However, managing IT incidents and maintaining system reliability can be a daunting task due to the sheer volume of events generated from various sources. To address this challenge, our solution leverages advanced event correlation and analysis powered by Generative AI capabilities, aiming to enhance IT functions by automating processes, suggesting optimal solutions, and providing immediate access to the correct Standard Operating Procedures (SOP).
@@ -104,7 +104,7 @@ with st.container(height=150, border=True):
 #col6 = st.columns(6)
 with st.container(height=150, border=True):
     col6 = st.columns(6)
-    col6[0].write('4')
+    col6[0].write('5')
     col6[1].write('Convert Cloudformation code to Terraform code')
     col6[2].write('Convert AWS cloudformation code to Terraform code')
     col6[3].write('''Goal: Many organizations are migrating from cloud specific IAAC tools to Terraform as it is generic IAAC. In such cases it is challenging to rewrite terraform code from scratch. The application will help to write terraform code corresponding to cloudformation template.
