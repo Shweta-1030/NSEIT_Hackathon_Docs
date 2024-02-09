@@ -10,5 +10,7 @@ st.title("List of Use Cases")
 
 df = pd.read_csv("Hackathon/hackathon_use_cases.csv")
 
+df = st.dataframe(df,hide_index=True)
+
 #st.table(df)
 st.write(df)
