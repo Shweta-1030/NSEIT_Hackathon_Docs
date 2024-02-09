@@ -11,8 +11,8 @@ st.title("List of Use Cases")
 df = pd.read_csv("data/hackathon_use_cases.csv")
 
 #display(HTML(df.to_html(index=False)))
-
-df = st.dataframe(df,hide_index=True)
+#df = st.dataframe(df,hide_index=True)
+df = df.style.hide(axis="index")
 
 #st.table(df)
 st.write(df)
